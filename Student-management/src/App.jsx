@@ -8,12 +8,12 @@ function App() {
 
   const [selectedStudent, setSelectedStudent] = useState(null);
 
-  // Add Student
+  // Add Student function
   const addStudent = (newStudent) => {
     setStudents([...students, newStudent]);
   };
 
-  // Delete Student
+  // Delete Student function
   const deleteStudent = (id) => {
     setStudents(students.filter((student) => student.id !== id));
   };
@@ -23,7 +23,7 @@ function App() {
     setSelectedStudent(student);
   };
 
-  // Update Student
+  // Update Student function
   const editStudent = (updatedStudent) => {
 
     setStudents(
