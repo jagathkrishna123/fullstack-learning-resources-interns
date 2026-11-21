@@ -22,9 +22,9 @@ function App() {
   return (
     <div>
 
-      <h1>Counter Application</h1>
+      <p>Counter Application</p>
 
-      <h2>Count: {count}</h2>
+      <p>Count: {count}</p>
 
       <button onClick={increase}>Increase</button>
 
