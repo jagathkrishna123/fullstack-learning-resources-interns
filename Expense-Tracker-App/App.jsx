@@ -1,7 +1,7 @@
 
 // (Parent Component)
 import React, { useState } from "react";
-import TransactionList from "./components/TransactionList";
+import TransactionList from "./TransactionList";
 
 function App() {
   const [title, setTitle] = useState("");
